@@ -1,0 +1,101 @@
+.repopage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbarrepo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw; 
+}
+.right-content{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  max-width:100%;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.repoicon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  
+}
+
+.profile > img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #c0bfbf;
+  cursor:pointer;
+}
+
+.home {
+  width: 20px;
+  height: 20px;
+  margin:0 40px;
+  cursor:pointer;
+}
+
+p{
+  font-size:11px;
+}
+.repo-title{
+  display:flex;
+  align-items:center;
+}
+.verified{
+  height:12px;
+  margin:0 5px;
+}
+.card{
+  border:2px solid #969292;
+  
+  flex-wrap:wrap;
+  
+  height:20vh;
+  width:40vw;
+  align-items:center;
+  margin : 0 auto;
+  padding:20px;
+  overflow:scroll;
+  border-radius:10px;
+  
+  
+}
+.lang{
+  display:flex;
+  align-items:center;
+  
+}
+.footer{
+  display:flex;
+  align-items:center;
+  margin:0 8px;
+}
+.footer-star{
+  display:flex;
+  align-items:center;
+  margin:0 5px;
+}
+.footer>button{
+  border-radius:6px;
+  background:black;
+  color:white;
+}
+.showrepo-content{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  align-content:center;
+  
+  
+}

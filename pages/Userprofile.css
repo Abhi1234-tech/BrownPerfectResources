@@ -1,0 +1,28 @@
+.followers{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between !important;
+  margin:15px;
+}
+.followers >h5{
+  margin : 0 60px;
+}
+.userprofile{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.userprofile > img{
+  height:80%;
+  width:50%;
+  border-radius:50%;
+  
+}
+.userprofile-header{
+  margin:10px 0;
+  width:70vw;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}

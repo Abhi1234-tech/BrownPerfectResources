@@ -1,0 +1,33 @@
+.homepage {
+  background-color:white;
+  padding: 20px;
+  
+ 
+  
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.icon{
+  height:40vh;
+  width:40vh;
+  padding:20px;
+}
+input{
+  margin:10px;
+  padding:10px;
+  width:30%;
+  border-radius:5px;
+}
+.submit{
+  border-radius:5px;
+  background:black;
+  color:white;
+  height:40px;
+  min-width:15vw;
+}
